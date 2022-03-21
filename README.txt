@@ -20,7 +20,7 @@ python analyze.py --model_name_or_path models/my_model_text
 Sentiment analysis neural network trained by fine-tuning 2D CNN and Wav2vec 2.0 
 on the MELD datasets.
 
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 For AUDIO input:
 
 2D CNN
