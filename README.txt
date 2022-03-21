@@ -6,7 +6,7 @@ numpy==1.17.4
 transformers==3.0.1
 
 To download data, please visit - https://affective-meld.github.io/
-Note: To train or evaluate audio model, downloaded data needs to be converted from MP4 to WAV mono format using FFmpeg.
+Note: To train or evaluate audio model, downloaded data needs to be converted from MP4 to WAV mono format.
 ----------------------------------------------------------------------------------------------------------------------
 For TEXT input:
 
