@@ -49,3 +49,8 @@ python train.py --data_format wav2vec2 --train_size 800 --test_size 200 --model_
 TO EVALUATE THE MODEL YOU HAVE TRAINED:
 python evaluate.py --data_format wav2vec2 --test_size 200 --audio_model checkpoint-xxx
 
+-------------------------------------------------------------------------------------------------------------------------
+For BIMODAL input:
+
+Run all cells in Jupyter Notebooks RoBERTa transfotmer embeddings.ipynb and wav2vec 2.0 base embeddings.ipynb or wav2vec 2.0 large embeddings.ipynb first. The embeddings will be saved respectively and fused later. Following that, run bimodal.ipynb to fuse the embeddings, train and evalaute the model. 
+
